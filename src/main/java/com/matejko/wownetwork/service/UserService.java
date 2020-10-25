@@ -72,7 +72,7 @@ public class UserService {
             throw new UserAlreadyFollowedException(followingUserName, toBeFollowedUserName);
         }
 
-        followingUser.getFollowedUsers().add(toBeFollowedUser);
+        followingUser.addToFollowedUsers(toBeFollowedUser);
 
         return userMapper.toDto(userRepository.save(followingUser));
     }
