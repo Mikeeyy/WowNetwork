@@ -1,0 +1,5 @@
+rootProject.name = 'wownetwork'
+include 'wownetwork-domain'
+include 'wownetwork-infrastructure'
+include 'wownetwork-api'
+

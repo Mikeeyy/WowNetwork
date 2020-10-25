@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  wownetworkapp:
+    restart: on-failure
+    container_name: app-wownetwork
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8589:8901"
