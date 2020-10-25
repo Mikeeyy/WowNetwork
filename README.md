@@ -28,7 +28,7 @@ III. **REST Api documentation - Swagger.**
 Api is documented using Swagger - all of the endpoints, models, properties, fields are described using annotations.
 To visit documentation and have possibility to invoke apis one can visit: http://localhost:8589/swagger-ui.html
 
-VI. **Technology stack:**
+IV. **Technology stack:**
 
 - spring boot & tomcat
 - H2 database
